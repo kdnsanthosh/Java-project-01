@@ -17,7 +17,8 @@ spec:
       containers:
       - name: spring-boot-app
         image: jilla5858/javasampleapp:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
-      imagePullPolicy: Always
+      
           
