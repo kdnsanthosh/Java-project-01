@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: #######################################
+        image: jilla5858/javasampleapp:latest
         ports:
         - containerPort: 8080
-      imagePullSecrets:
-          - name: regcred
+      imagePullPolicy: Always
+          
